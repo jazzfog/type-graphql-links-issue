@@ -1,6 +1,4 @@
-# Linked models issue demo
-
-TODO: Remove unneeded dependencies
+# type-graphql - Linked models issue demo
 
 ## Install
 
@@ -8,7 +6,7 @@ TODO: Remove unneeded dependencies
 - Create links for shared `models` and `common` within `app/src/shared`
 
 ```
-Replace <code-location> with the path to the 
+Replace <code-location> with the path to the
 example code on your computer:
 
 On Linux/macOS:
