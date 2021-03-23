@@ -24,10 +24,12 @@ mklink /D <code-location>\app\src\shared\models <code-location>\shared\models
 mklink /D <code-location>\app\src\shared\common <code-location>\shared\common
 ```
 
+**Note**: Yes, you will need to run `yarn` to install the dependencies twice in two folders:
+
 - Within `shared` folder:
-	- Run `yarn install`
+	- Run `yarn`
 - Within `app` folder:
-	- Run `yarn install && yarn start`
+	- Run `yarn && yarn start`
 
 - Observe error:
 
