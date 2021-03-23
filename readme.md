@@ -24,9 +24,10 @@ mklink /D <code-location>\app\src\shared\models <code-location>\shared\models
 mklink /D <code-location>\app\src\shared\common <code-location>\shared\common
 ```
 
-- run `yarn install` within `shared` folder first
-
-- run `yarn install && yarn start` within `app` folder
+- Within `shared` folder:
+	- Run `yarn install`
+- Within `app` folder:
+	- Run `yarn install && yarn start`
 
 - Observe error:
 
