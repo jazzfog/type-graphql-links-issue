@@ -1,0 +1,14 @@
+{
+  "__comment_1": "This file is just to suppress IDE/lint errors, not really doing anything",
+  "name": "@my/shared",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.25",
+    "typescript": "4.2.3",
+    "graphql": "^15.3.0"
+  }
+}

@@ -1,0 +1,21 @@
+// This file is just to suppress IDE/lint errors, not really doing anything
+{
+  "compilerOptions": {
+
+    // Prevents error: use `experimentalDecorators`
+    "experimentalDecorators": true,
+
+    // Allows imports like `import fs from 'fs';`
+    // Prevents error:
+    // TS1192: Module '"fs"' has no default export.
+    "esModuleInterop": true, // Allows import
+
+    // Prevents error:
+    // TS2569: Type 'Set ' is not an array type or a string type. Use compiler option '--downlevelIteration' to allow iterating of iterators.
+    "target": "es6",
+
+    // Prevents error:
+    // TS2792: Cannot find module 'typeorm'. Did you mean to set the 'moduleResolution' option to 'node', or to add aliases to the 'paths' option?
+    "moduleResolution": "node"
+  }
+}
